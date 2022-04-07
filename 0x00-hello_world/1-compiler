@@ -1,2 +1,2 @@
 #!/bin/bash
-cat  main.o | head
+gcc . $CFILE > main.o
