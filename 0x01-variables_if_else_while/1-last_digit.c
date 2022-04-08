@@ -1,22 +1,25 @@
 #include <stdio.h>
-
 /**
- * main - is the entry point
- * n will be evaluated to check if its positive or zero or negative
- * Return: (0) if successful
+ * main - is the Entry point
+ * the last digit of n is evaluated
+ * if it is greater than 5 print is greater than 5
+ * if it is less than 6 print is less than 6
+ * if is 0 print it is zero
+ * Return: is 0 if successfull
  */
 int main(void)
 {
+	int l = n % 10;
 
-	if (n > 0)
+	if (l > 5)
 	{
-		printf("%d is positive", n);
-	} else if (n == 0)
+		printf("Last digit of %d is %d and it is greater than 5\n", n, l);
+	} else if (l == 0)
 	{
-		printf("%d is zero", n);
-	} else if (n < 0)
+		printf("Last digit 0f %d is %d and is 0\n", n, l);
+	} else if (l < 6)
 	{
-		printf("%d is negative", n);
+		printf("Last digit of %d is %d and is less than 6\n", n, l);
 	}
 
 	return (0);
