@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- * main -Entry position
- * Return if successful will return (0)
+/**
+ * main - Entry position
+ * Return: if successful will return (0)
  */
 int main(void)
 {
