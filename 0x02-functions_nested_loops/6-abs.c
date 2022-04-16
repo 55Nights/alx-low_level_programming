@@ -8,11 +8,5 @@
  */
 int _abs(int d)
 {
-	int v;
-
-	v = abs(d);
-	printf("%d", v);
-	putchar('\n');
-
-	return (0);
+	return (d >= 0 ? d : d * -1);
 }
