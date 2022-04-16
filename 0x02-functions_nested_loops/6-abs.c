@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
- /**
- * _abs - the entry point
- * @d : -  the value to be evaluated
- * Return: 0;
+/**
+ * _abs - entry point
+ * @d : number to check
+ * Return: 0 if sucessful
  */
 int _abs(int d)
 {
@@ -12,6 +12,7 @@ int _abs(int d)
 
 	v = abs(d);
 	printf("%d", v);
+	putchar('\n');
 
 	return (0);
 }
