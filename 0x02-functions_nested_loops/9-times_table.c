@@ -17,10 +17,10 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			product = i * j;
-			printf("%d", product);
-			_putchar(',');
-			_putchar(' ');
 		}
+		printf("%d", product);
+		_putchar(',');
+		_putchar(' ');
 	}
 	_putchar('\n');
 }
