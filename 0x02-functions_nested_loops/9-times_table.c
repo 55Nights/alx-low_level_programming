@@ -13,30 +13,33 @@ void times_table(void)
 	i = 0;
 	while (i <= 9)
 	{
-		product = i * j;
-		if (j == 0)
+		j = 0;
+		while (j <= 9)
 		{
-			_putchar('0' + product);
-		}
-		else if (product < 10)
-		{
-			_putchar(' ');
-			_putchar('0' + product);
-		}
-		else
-		{
-			_putchar('0' + product / 10);
-			_putchar('0' + product % 10);
-		}
+			product = i * j;
+			if (j == 0)
+			{
+				_putchar('0' + product);
+			}
+			else if (product < 10)
+			{
+				_putchar(' ');
+				_putchar('0' + product);
+			}
+			else
+			{
+				_putchar('0' + product / 10);
+				_putchar('0' + product % 10);
+			}
 
-		if (j < 9)
-		{
-			_putchar(',');
-			_putchar(' ');
+			if (j < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			j++;
 		}
-		j++;
-	}
-	_putchar('\n');
-	i++;
+		_putchar('\n');
+		i++;
 
 }
