@@ -11,16 +11,32 @@ void times_table(void)
 	int j;
 
 	i = 0;
-	j = 0;
-	for (i = 0; i < 10; i++)
+	while (i <= 9)
 	{
-		for (j = 0; j < 10; j++)
+		product = i * j;
+		if (j == 0)
 		{
-			product = i * j;
+			_putchar('0' + product);
 		}
-		printf("%d", product);
-		_putchar(',');
-		_putchar(' ');
+		else if (product < 10)
+		{
+			_putchar(' ');
+			_putchar('0' + product);
+		}
+		else
+		{
+			_putchar('0' + product / 10);
+			_putchar('0' + product % 10);
+		}
+
+		if (j < 9)
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
+		j++;
 	}
 	_putchar('\n');
+	i++;
+
 }
