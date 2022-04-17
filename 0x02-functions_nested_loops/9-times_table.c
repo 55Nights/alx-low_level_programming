@@ -22,11 +22,9 @@ void times_table(void)
 				printf("%d", product);
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
 			} else
 			{
 				printf("%d", product);
-				_putchar('$');
 			}
 		}
 		_putchar('\n');
