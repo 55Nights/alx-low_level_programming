@@ -20,7 +20,7 @@ int main(void)
 					putchar(j);
 					putchar(k);
 
-					if (i == '7' && k == '8')
+					if (i == '7' && j == '8')
 						continue;
 
 
