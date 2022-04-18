@@ -16,10 +16,10 @@ int main(void)
 		num = c + p;
 		if (n == 98)
 		{
-			printf("%llu", num);
+			printf("%lu", num);
 		} else
 		{
-			printf("%llu, ", num);
+			printf("%lu, ", num);
 		}
 		p = c;
 		c = num;
