@@ -13,7 +13,7 @@ int main(void)
 	p = 0;
 	n = 0;
 	c = 1;
-	while ( n < 4000000)
+	while (n < 4000000)
 	{
 		n = c + p;
 		p = c;
@@ -24,5 +24,6 @@ int main(void)
 		}
 	}
 		printf("%i", sum);
+		putchar('\n');
 		return (0);
 }
