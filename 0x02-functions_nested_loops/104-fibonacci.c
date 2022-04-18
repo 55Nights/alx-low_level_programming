@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	unsigned long int c, p, num;
+	unsigned long long int c, p, num;
 	int n;
 
 	c = 1;
@@ -16,10 +16,10 @@ int main(void)
 		num = c + p;
 		if (n == 98)
 		{
-			printf("%lu", num);
+			printf("%llu", num);
 		} else
 		{
-			printf("%lu, ", num);
+			printf("%llu, ", num);
 		}
 		p = c;
 		c = num;
