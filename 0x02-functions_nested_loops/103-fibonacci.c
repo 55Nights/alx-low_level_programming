@@ -19,6 +19,6 @@ int main(void)
 		c = num;
 		n++;
 	}
-	printf("%lld", sum);
+	printf("%lu", sum);
 	putchar('\n');
 }
