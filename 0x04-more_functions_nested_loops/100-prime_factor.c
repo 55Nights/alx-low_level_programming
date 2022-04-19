@@ -16,7 +16,7 @@ int main(void)
 			i = i / j;
 		}
 	}
-	printf("%ld", j);
+	printf("%ld\n", j);
 
 	return (0);
 }
