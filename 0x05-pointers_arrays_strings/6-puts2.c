@@ -7,16 +7,29 @@
  */
 void puts2(char *str)
 {
-	int i, l;
+	int i, l, len, j;
 
-	l = strlen(str) - 1;
-	for (i = 0; i < l; i++)
+	len = strlen(str);
+	i = 0;
+
+	while (i < len)
 	{
-		if (i % 2 == 0)
+		if (str[i] == '.')
 		{
-			_putchar(str[i]);
+			l = (len + 1) - 1;
+		}
+		else
+		{
+			l = len - 1;
+		}
+		i++;
+	}
+	for (int j = 0; j < l; j++)
+	{
+		if (j % 2 == 0)
+		{
+			_putchar(str[j]);
 		}
 	}
 	_putchar('\n');
-
 }
