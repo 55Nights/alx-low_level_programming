@@ -5,7 +5,7 @@
  * _strcpy -  copys strings
  * @dest : first string
  * @src : last string
- * Return : char
+ * Return: char
  */
 char *_strcpy(char *dest, char *src)
 {
