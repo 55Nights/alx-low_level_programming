@@ -3,10 +3,10 @@
 #include <string.h>
 /**
  * string_toupper - main function
- * @str: the string
+ * @*: the string
  * Return: char
  */
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 	int num, i;
 
