@@ -3,8 +3,8 @@
 #include <string.h>
 /**
  * _strcat - concatenates two strings
- * @s1: destination string
- * @s2: source string
+ * @dest: destination string
+ * @src: source string
  * Return: a string
  */
 char *_strcat(char *dest, char *src)
