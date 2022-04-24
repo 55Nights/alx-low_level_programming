@@ -3,25 +3,25 @@
 #include <string.h>
 /**
  * string_toupper - main function
- * @*: the string
+ * @s: the string
  * Return: char
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int num, i;
 
-	for (i = 0; i < strlen(str); i++)
+	for (i = 0; i < strlen(s); i++)
 	{
-		num = (str[i] - 0);
+		num = (s[i] - 0);
 
 		if (num >= 90 && num <= 122)
 		{
-			str[i] = (str[i] - 32);
+			s[i] = (s[i] - 32);
 		}
 		else
 		{
-			str[i] = str[i];
+			s[i] = s[i];
 		}
 	}
-	return (str);
+	return (s);
 }
