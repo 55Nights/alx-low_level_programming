@@ -13,7 +13,7 @@ char *leet(char *s)
 
 	char *lower = "aeotl";
 	char *upper = "AEOTL";
-	char *leet = "43071";
+	char *l = "43071";
 
 	while (*(s + i) != '\0')
 	{
@@ -21,7 +21,7 @@ char *leet(char *s)
 		{
 			if (*(s + i) == lower[j] || *(s + i) == upper[j])
 			{
-				*(s + i) = leet[j];
+				*(s + i) = l[j];
 			}
 		}
 		i++;
