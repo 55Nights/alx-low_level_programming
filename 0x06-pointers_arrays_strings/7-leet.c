@@ -9,20 +9,16 @@ char *leet(char *s)
 {
 	int i, j;
 
-	i = 0;
-
-	char *lower = "aeotl";
-	char *upper = "AEOTL";
-	char *l = "43071";
+	char *_low = "aeotl";
+	char *_upper = "AEOTL";
+	char *lt = "43071";
 
 	while (*(s + i) != '\0')
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (*(s + i) == lower[j] || *(s + i) == upper[j])
-			{
-				*(s + i) = l[j];
-			}
+			if (*(s + i) == _low[j] || *(s + i) == _upper[j])
+				*(s + i) == _upper[j];
 		}
 		i++;
 	}
