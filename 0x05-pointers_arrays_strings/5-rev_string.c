@@ -20,6 +20,4 @@ void rev_string(char *s)
 		printf("%c", *(s + i));
 		i--;
 	}
-	printf("\n");
-	*s = '\0';
 }
