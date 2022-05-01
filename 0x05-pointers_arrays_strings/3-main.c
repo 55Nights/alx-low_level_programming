@@ -1,6 +1,5 @@
-#include "main.h"
+#include "_putchar.c"
 #include "3-puts.c"
-#include <stdio.h>
 int main(void)
 {
 	char *str;
