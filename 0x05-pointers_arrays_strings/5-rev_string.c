@@ -21,5 +21,5 @@ void rev_string(char *s)
 		i--;
 	}
 	printf("\n");
-	*s = 0;
+	*s = null;
 }
