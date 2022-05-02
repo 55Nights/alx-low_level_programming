@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _memset - returns the pointer to the memory area s
  * @s: is the buffer
