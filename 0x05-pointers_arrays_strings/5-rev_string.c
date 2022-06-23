@@ -25,6 +25,5 @@ void rev_string(char *s)
 		i--;
 	}
 	s = c;
-	printf("\n");
 	free(c);
 }
