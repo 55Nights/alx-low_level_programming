@@ -1,5 +1,4 @@
 #include "101-print_number.c"
-#include "_putchar.c"
 
 /**
  *  * main - check the code
