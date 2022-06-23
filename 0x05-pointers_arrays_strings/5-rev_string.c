@@ -10,6 +10,7 @@
 void rev_string(char *s)
 {
 	int i, x = 0;
+	unsigned int y = 0;
 	char *c;
 
 	i = 0;
@@ -24,10 +25,10 @@ void rev_string(char *s)
 		x++;
 		i--;
 	}
-	while (i < strlen(s))
+	while (y < strlen(s))
 	{
-		*(s + i) = *(c + i);
-		i++;
+		*(s + y) = *(c + y);
+		y++;
 	}
 	free(c);
 }
