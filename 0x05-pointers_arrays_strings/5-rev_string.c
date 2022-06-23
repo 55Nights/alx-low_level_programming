@@ -24,6 +24,10 @@ void rev_string(char *s)
 		x++;
 		i--;
 	}
-	s = c;
+	while (i < strlen(s))
+	{
+		*(s + i) = *(c + i);
+		i++;
+	}
 	free(c);
 }
