@@ -9,8 +9,7 @@
  */
 void rev_string(char *s)
 {
-	int i, x = 0;
-	char *c;
+	int i;
 
 	i = 0;
 	while (*(s + i) != '\0')
@@ -19,11 +18,7 @@ void rev_string(char *s)
 	}
 	while (i >= 0)
 	{
-		c = malloc(sizeof(char) * strlen(s));
-		*(c + x) = *(s + i);
-		x++;
+		printf("%c", *(s + i));
 		i--;
 	}
-	s = c;
-	free(c);
 }
