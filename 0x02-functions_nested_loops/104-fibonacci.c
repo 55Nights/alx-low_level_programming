@@ -5,13 +5,11 @@
  */
 int main(void)
 {
-	unsigned long int i, p, c, n, p1, p2, c1, c2;
+	unsigned long int i, p, c;
 
 	p = 1;
-	c1 = 0;
 	c = 2;
 	i = 1;
-	n = 1000000000;
 	printf("%lu", p);
 
 	while (i < 98)
