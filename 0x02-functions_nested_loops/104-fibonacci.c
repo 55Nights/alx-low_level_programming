@@ -14,30 +14,11 @@ int main(void)
 	n = 1000000000;
 	printf("%lu", p);
 
-	while (i < 91)
+	while (i < 98)
 	{
 		printf(", %lu", c);
 		c = c + p;
 		p = c - p;
-
-		i++;
-	}
-	p1 = (p / n);
-	p2 = (p % n);
-
-	c1 = (c1 / n);
-	c2 = (c1 % n);
-
-	i = 92;
-	while (i < 99)
-	{
-		printf(", %lu", c1 + (c2 / n));
-		printf("%lu", c % n);
-
-		c1 = c1 + p1;
-		p1 = c1 - p1;
-		c2 = c2 + p2;
-		p2 = c2 - p2;
 
 		i++;
 	}
