@@ -10,7 +10,6 @@
 void rev_string(char *s)
 {
 	int i, x = 0;
-	unsigned int y = 0;
 	char *c;
 
 	i = 0;
